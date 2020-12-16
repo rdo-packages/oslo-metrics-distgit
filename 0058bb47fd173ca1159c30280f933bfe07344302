@@ -1,0 +1,8 @@
+Code-Review+2: Yatin Karel <ykarel@redhat.com>
+Workflow+1: Yatin Karel <ykarel@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 16 Dec 2020 16:39:03 +0000
+Reviewed-on: https://review.rdoproject.org/r/31368
+Project: openstack/oslo-metrics-distgit
+Branch: refs/heads/rpm-master
