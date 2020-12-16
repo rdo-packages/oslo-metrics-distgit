@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "88d444f5_e4f0feca",
+        "filename": "python-oslo-metrics.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-12-16T12:35:28Z",
+      "side": 1,
+      "message": "%{_bindir}",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 113,
+        "endChar": 8
+      },
+      "revId": "52a351773929d1e21740b6cbe4f7a06636bddeac",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
