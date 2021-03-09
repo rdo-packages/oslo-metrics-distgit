@@ -50,6 +50,7 @@ Requires:       python3-oslo-config >= 2:6.9.0
 Requires:       python3-oslo-log >= 3.44.0
 Requires:       python3-oslo-utils >= 3.41.0
 Requires:       python3-prometheus_client >= 0.6.0
+Requires:       python3-pbr >= 3.1.1
 
 %description -n python3-%{pkg_name}
 %{common_desc}
