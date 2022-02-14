@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x4c29ff0e437f3351fd82bdf47c5a3bc787dc7035
+%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %global with_doc 1
@@ -12,7 +12,7 @@ Oslo metrics API supports collecting metrics data from other Oslo \
 libraries and exposing the metrics data to monitoring system.
 
 Name:           python-oslo-metrics
-Version:        0.3.0
+Version:        0.3.1
 Release:        1%{?dist}
 Summary:        OpenStack Oslo Metrics library
 
@@ -124,6 +124,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %{python3_sitelib}/oslo_metrics/tests/
 
 %changelog
+* Mon Feb 14 2022 RDO <dev@lists.rdoproject.org> 0.3.1-1
+- Update to 0.3.1
+
 * Wed Sep 08 2021 RDO <dev@lists.rdoproject.org> 0.3.0-1
 - Update to 0.3.0
 
