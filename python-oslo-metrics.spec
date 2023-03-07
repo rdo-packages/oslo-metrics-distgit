@@ -12,8 +12,8 @@ Oslo metrics API supports collecting metrics data from other Oslo \
 libraries and exposing the metrics data to monitoring system.
 
 Name:           python-oslo-metrics
-Version:        XXX
-Release:        XXX
+Version:        0.6.0
+Release:        1%{?dist}
 Summary:        OpenStack Oslo Metrics library
 
 License:        ASL 2.0
@@ -124,3 +124,6 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %{python3_sitelib}/oslo_metrics/tests/
 
 %changelog
+* Tue Mar 07 2023 RDO <dev@lists.rdoproject.org> 0.6.0-1
+- Update to 0.6.0
+
