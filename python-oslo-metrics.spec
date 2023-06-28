@@ -128,3 +128,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %{python3_sitelib}/oslo_metrics/tests/
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/oslo.metrics/commit/95013ef29de3238e3f75da1b8355fddcd05b8dd5
