@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x5d2d1e4fb8d38e6af76c50d53d4fec30cf5ce3da
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
 %global excluded_brs doc8 bandit pre-commit hacking flake8-import-order
@@ -14,8 +14,8 @@ Oslo metrics API supports collecting metrics data from other Oslo \
 libraries and exposing the metrics data to monitoring system.
 
 Name:           python-oslo-metrics
-Version:        XXX
-Release:        XXX
+Version:        0.8.0
+Release:        1%{?dist}
 Summary:        OpenStack Oslo Metrics library
 
 License:        Apache-2.0
@@ -129,3 +129,6 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %{python3_sitelib}/oslo_metrics/tests/
 
 %changelog
+* Thu Mar 14 2024 RDO <dev@lists.rdoproject.org> 0.8.0-1
+- Update to 0.8.0
+
